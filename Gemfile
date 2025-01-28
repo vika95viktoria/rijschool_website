@@ -1,8 +1,14 @@
 #after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
-gem "jekyll", "~> 4.3.2"
-gemspec
 
-# Delete the following lines if not on Windows: 
-# Performance-booster for watching directories on Windows
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
+# Match the .gemspec requirement
+ruby ">= 2.5.0"
+
+# Runtime dependencies
+gem "jekyll", ">= 4.0", "< 4.4"
+gem "jekyll-agency", "1.1.0"
+
+group :development do
+  gem "bundler", "~> 2.0"
+  gem "rake", "~> 13.0"
+end
