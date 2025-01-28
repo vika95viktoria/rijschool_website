@@ -1,0 +1,224 @@
+---
+---
+@charset "utf-8";
+// Core variables and mixins
+@import "base/variables.scss";
+@import "base/mixins.scss";
+
+// Custom Fonts
+{% if site.data.style.fonts %}
+  {% for font in site.data.style.fonts %}
+    @mixin {{font.for}}-font {
+      font-family: "{{ font.name }}", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+  {% endfor %}
+{% endif %}
+
+// Custom colors
+$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$white: {{ site.data.style.white | default: "#fff" }} !default;
+$black: {{ site.data.style.black | default: "#000" }} !default;
+
+// Custom Images
+$header-image: "{{ site.data.style.header-image }}";
+$contact-image: "{{ site.data.style.contact-image }}";
+
+/* Fancy Table Styling */
+.table-custom {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+/* Header background & text color */
+.table-custom thead {
+  background-color: black; /* Change to your preferred color */
+  color: #ffffff;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  background-color: #f8f9fa; /* Light gray background, optional */
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden; /* Ensures the answer doesn’t exceed the item boundary */
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  display: none; /* Hidden by default */
+  padding: 0 1.5rem 1rem 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.faq-answer.open {
+  display: block;
+}
+
+.faq-footer {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Optional: Subtle box shadow on each FAQ item */
+.shadow-sm {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.reviews-section h2 {
+  font-weight: 700;
+  color: black; /* Example color for the heading */
+}
+
+.review-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  flex: 1; /* Ensures each card can stretch */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header (avatar + name) */
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+.review-header .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+.review-author {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Star icons (Bootstrap Icons used in the example) */
+.review-stars {
+  color: #f7c14d; /* Star color (gold) */
+  margin-bottom: 0.75rem;
+}
+
+.review-text p {
+  margin-bottom: 1rem;
+}
+
+/* Footer (Google icon, label) */
+.review-footer {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+.google-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+/* Carousel controls styling (optional) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(30%);
+}
+
+/* Adjust spacing on smaller screens */
+@media (max-width: 576px) {
+  .review-card {
+    margin: 0.5rem 0;
+  }
+}
+
+
+.table-custom thead th {
+  border: none;
+  padding: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Rounded corners on the very left & right of the header */
+.table-custom .rounded-top-left {
+  border-top-left-radius: 10px;
+}
+
+.table-custom .rounded-top-right {
+  border-top-right-radius: 10px;
+}
+
+/* Alternating row background */
+.table-custom tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+/* Row borders, spacing */
+.table-custom tbody tr {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.table-custom tbody td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+
+
+// Global CSS
+@import "base/page.scss";
+
+// Components
+@import "components/buttons.scss";
+@import "components/navbar.scss";
+@import "components/client-scroll.scss";
+
+// Layout
+@import "layout/masthead.scss";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/timeline.scss";
+@import "layout/team.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";

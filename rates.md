@@ -1,0 +1,52 @@
+---
+layout: page
+title: Rates
+background: grey
+---
+
+<section class="page-section">
+  <div class="container">
+    <h2 class="section-heading text-uppercase">Available packages</h2>
+    
+    <div class="table-responsive">
+      <table class="table table-custom">
+        <thead>
+          <tr>
+            <th scope="col" class="rounded-top-left">Package</th>
+            <th scope="col" class="rounded-top-right">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Trial lesson 60 min</td>
+            <td>60 €</td>
+          </tr>
+          <tr>
+            <td>1 lesson 90 min</td>
+            <td>90 €</td>
+          </tr>
+          <tr>
+            <td>5 lessons x 90 min</td>
+            <td>450 €</td>
+          </tr>
+          <tr>
+            <td>10 lesson x 90 min</td>
+            <td>900 €</td>
+          </tr>
+           <tr>
+            <td>20 lesson x 90 min</td>
+            <td>1800 €</td>
+          </tr>
+           <tr>
+            <td>30 lesson x 90 min</td>
+            <td>2700 €</td>
+          </tr>
+           <tr>
+            <td>Practical exam</td>
+            <td>350 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
