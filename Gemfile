@@ -1,5 +1,6 @@
 #after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
+gem "jekyll", "~> 4.3.2"
 gemspec
 
 # Delete the following lines if not on Windows: 
