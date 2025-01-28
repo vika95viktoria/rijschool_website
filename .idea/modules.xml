@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/agency-jekyll-theme.iml" filepath="$PROJECT_DIR$/.idea/agency-jekyll-theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rijschool_website.iml" filepath="$PROJECT_DIR$/.idea/rijschool_website.iml" />
     </modules>
   </component>
 </project>
