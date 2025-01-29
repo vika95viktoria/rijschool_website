@@ -13,7 +13,7 @@ cloudcannon_editable: true
   }
 </style>
 
-<section class="faq-section py-5">
+<section class="faq-section py-5 editable">
   <div class="container text-center mb-4">
     <h2 class="faq-title">Here you can find answers to our most commonly asked questions about driving lessons.</h2>
   </div>
@@ -46,7 +46,7 @@ cloudcannon_editable: true
           </p>
       </div>
     </div>
-    
+
     <div class="faq-item shadow-sm">
       <button class="faq-question" type="button">
         Can I have lessons in English?
@@ -83,7 +83,7 @@ cloudcannon_editable: true
         <p>
  You can begin driving lessons without having passed the theory exam. However, you must
             have your theory certificate before you can book and take the practical test.
-      
+
         </p>
       </div>
     </div>
@@ -93,7 +93,7 @@ cloudcannon_editable: true
     <div class="text-center mt-4">
       <p class="faq-footer">
         If you have more questions just call us or send a message and we would be happy to help      </p>
-        <a href="https://wa.me/375293760300" target="_blank" class="btn btn-success">
+        <a href="https://wa.me/{{site.phone}}" target="_blank" class="btn btn-success">
   Chat via WhatsApp
 </a>
 
@@ -110,10 +110,10 @@ cloudcannon_editable: true
       button.addEventListener('click', function () {
         const answer = button.nextElementSibling;
         const icon = button.querySelector('.faq-icon');
-        
+
         // Toggle the answer's visibility
         answer.classList.toggle('open');
-        
+
         // Toggle icon (e.g. plus -> minus)
         if (icon.textContent === '+') {
           icon.textContent = '–';

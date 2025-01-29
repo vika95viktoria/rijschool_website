@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "XYZ Driving School"
 description: "Top-quality driving lessons for all levels."
 phone: 375293760301
+email: vika95vika@gmail.com
 #
 #plugins:
 #  - jekyll-seo-tag
