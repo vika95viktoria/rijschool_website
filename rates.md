@@ -3,7 +3,7 @@ layout: page
 title: Rates
 custom_field: test
 background: grey
-trial_lesson_price: 65
+trial_lesson_price: 60
 trial_lesson_duration: 60
 one_lesson_price: 95
 one_lesson_duration: 90
