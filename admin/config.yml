@@ -4,7 +4,7 @@ backend:
   branch: master                                 # or "master," depending on your default branch
 
 media_folder: "assets/img"  # Where images etc. are uploaded
-public_folder: "/assets/img"
+#public_folder: "/assets/img"
 
 # Add collections to manage different content types
 collections:
@@ -17,10 +17,10 @@ collections:
         file: "rates.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Team"
-        name: "team"
-        file: "team.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Custom field", name: "custom_field", widget: "string" }
+#      - label: "Team"
+#        name: "team"
+#        file: "team.md"
+#        fields:
+#          - { label: "Title", name: "title", widget: "string" }
+#          - { label: "Body", name: "body", widget: "markdown" }

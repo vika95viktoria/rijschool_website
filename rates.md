@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Rates
+title: 'Rates'
+custom_field: 'test'
 background: grey
 ---
 

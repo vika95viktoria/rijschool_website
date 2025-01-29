@@ -1,0 +1,44 @@
+stackbitVersion: "~0.2.0"
+
+ssgName: jekyll
+staticDir: ""
+uploadDir: images
+buildCommand: "gem install jekyll bundler && bundle install && bundle exec jekyll build"
+publishDir: "_site"
+#dataDir: ""
+#pagesDir: ""
+
+models:
+  - name: siteConfig
+    type: config
+    file: "_config.yml"
+    label: "Site Configuration"
+    fields:
+      - type: string
+        name: url
+        label: "Site URL"
+      - type: string
+        name: title
+        label: "Site Title"
+      - type: string
+        name: description
+        label: "Site Description"
+      - type: string
+        name: phone
+        label: "Phone Number"
+
+
+
+#  - name: navigationData
+#    type: data
+#    file: "_data/navigation.yml"
+#    fields:
+#      - name: main_menu
+#        type: list
+#        items:
+#          type: object
+#          fields:
+#            - name: label
+#              type: string
+#            - name: url
+#              type: string
