@@ -19,32 +19,32 @@ background: grey
         </thead>
         <tbody>
           <tr>
-            <td>Trial lesson 60 min</td>
-            <td>60 €</td>
+            <td>Trial lesson {{site.data.sitetext.rates.trial_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.trial_lesson.price}}</td>
           </tr>
           <tr>
-            <td>1 lesson 90 min</td>
-            <td>90 €</td>
+            <td>1 lesson {{site.data.sitetext.rates.one_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.one_lesson.price}}</td>
           </tr>
           <tr>
-            <td>5 lessons x 90 min</td>
-            <td>450 €</td>
+            <td>5 lessons x {{site.data.sitetext.rates.one_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.five_lessons.price}}</td>
           </tr>
           <tr>
-            <td>10 lesson x 90 min</td>
-            <td>900 €</td>
+            <td>10 lesson x {{site.data.sitetext.rates.one_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.ten_lessons.price}}</td>
           </tr>
            <tr>
-            <td>20 lesson x 90 min</td>
-            <td>1800 €</td>
+            <td>20 lesson x {{site.data.sitetext.rates.one_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.twenty_lessons.price}}</td>
           </tr>
            <tr>
-            <td>30 lesson x 90 min</td>
-            <td>2700 €</td>
+            <td>30 lesson x {{site.data.sitetext.rates.one_lesson.duration}}</td>
+            <td>{{site.data.sitetext.rates.thirty_lessons.price}}</td>
           </tr>
            <tr>
             <td>Practical exam</td>
-            <td>350 €</td>
+            <td>{{site.data.sitetext.rates.practical_exam.price}}</td>
           </tr>
         </tbody>
       </table>

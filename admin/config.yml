@@ -32,12 +32,62 @@ collections:
             name: "layout"
             widget: "hidden"
             default: "page"
-          - label: "Custom Field"
-            name: "custom_field"
-            widget: "string"
-          - label: "Background"
-            name: "background"
-            widget: "string"
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
+  - name: "sitetext"
+    label: "Site Text"
+    files:
+      - label: "Site Text Data"
+        name: "sitetext"
+        file: "_data/sitetext.yml"
+
+        # Fields define the structure of your YAML.
+        fields:
+          # 1) Rates
+          - name: "rates"
+            label: "Rates"
+            widget: "object"
+            fields:
+              - name: "trial_lesson"
+                label: "Trial Lesson"
+                widget: "object"
+                fields:
+                  - { name: "duration", label: "Duration", widget: "string" }
+                  - { name: "price", label: "Price", widget: "string" }
+
+              - name: "one_lesson"
+                label: "One Lesson"
+                widget: "object"
+                fields:
+                  - { name: "duration", label: "Duration", widget: "string" }
+                  - { name: "price", label: "Price", widget: "string" }
+              - name: "five_lessons"
+                label: "Five Lessons"
+                widget: "object"
+                fields:
+                  - { name: "price", label: "Price", widget: "string" }
+              - name: "ten_lessons"
+                label: "Ten Lessons"
+                widget: "object"
+                fields:
+                  - { name: "price", label: "Price", widget: "string" }
+              - name: "twenty_lessons"
+                label: "Twenty Lessons"
+                widget: "object"
+                fields:
+                  - { name: "price", label: "Price", widget: "string" }
+              - name: "thirty_lessons"
+                label: "Thirty Lessons"
+                widget: "object"
+                fields:
+                  - { name: "price", label: "Price", widget: "string" }
+              - name: "practical_exam"
+                label: "Practical Exam"
+                widget: "object"
+                fields:
+                  - { name: "price", label: "Price", widget: "string" }
+
+
+
+
+
+
+
