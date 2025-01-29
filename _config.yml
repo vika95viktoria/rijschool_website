@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "XYZ Driving School"
 description: "Top-quality driving lessons for all levels."
 address: "Example Street 123, 1011 AB Amsterdam, Netherlands"
-phone: 375293760300
+phone: 31612345678
 email: vika95vika@gmail.com
 #
 #plugins:
