@@ -9,21 +9,22 @@
 
 # English (default)
 # -----------------
+
+general:
+  email: example@gmail.com
+  address: "Example Street 123, 1011 AB Amsterdam, Netherlands"
+  phone: 31612345678
+  description: "Top-quality driving lessons for all levels."
+  title: "XYZ Driving School"
+
 en: &DEFAULT_EN
   header:
     title: Welcome to XYZ Driving School!
     text: Place where you'll become a driver
     button: Book your trial lesson
-    buttonlink: "#contact"
 
   team:
     title: "Meet the team"
-#    text: "John is dedicated to ensuring each lesson is tailored to your skill level and goals.
-#           Feel free to contact us if you have any questions or want to book a lesson with John."
-#    subtext: Murat is a certified driving instructor with over 20 years of experience.
-#      He has helped hundreds of students successfully pass their driving tests.
-#      His friendly, patient teaching style ensures you’ll feel comfortable
-#      and confident behind the wheel.
     section: team
     people:
       - name: "Murat"

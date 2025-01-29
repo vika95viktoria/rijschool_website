@@ -50,14 +50,14 @@ cloudcannon_editable: true
       <p>
         Need more info or want to schedule a driving lesson? Get in touch with us using the details below.</p>
 
-      <p><strong>Address: </strong>{{site.address}}</p>
-      <p><strong>Phone:</strong> +{{site.phone}}</p>
+      <p><strong>Address: </strong>{{site.data.sitetext.general.address}}</p>
+      <p><strong>Phone:</strong> +{{site.data.sitetext.general.phone}}</p>
       <p>
         <strong>Email:</strong>
-        <a href="mailto:info@example.com">info@example.com</a>
+        <a href="mailto:{{ site.data.sitetext.general.email }}">{{ site.data.sitetext.general.email }}</a>
       </p>
             <div class="text-left mt-4">
-        <a href="https://wa.me/{{site.phone}}" target="_blank" class="btn btn-success">
+        <a href="https://wa.me/{{site.data.sitetext.general.phone}}" target="_blank" class="btn btn-success">
   Chat via WhatsApp
 </a>
 
