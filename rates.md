@@ -9,7 +9,7 @@ one_lesson_price: 95
 one_lesson_duration: 90
 cloudcannon_editable: true
 ---
-<section class="page-section">
+
   <div class="container">
     <h2 class="section-heading text-uppercase">Available packages</h2>
 
@@ -54,4 +54,3 @@ cloudcannon_editable: true
       </table>
     </div>
   </div>
-</section>
