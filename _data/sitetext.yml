@@ -14,7 +14,7 @@ general:
   email: example@gmail.com
   address: "Example Street 123, 1011 AB Amsterdam, Netherlands"
   phone: 31612345678
-  description: "Top-quality driving lessons for all levels."
+  description: "Top-quality driving lessons in Amsterdam for all levels on manual transmission car."
   title: "XYZ Driving School"
 
 en: &DEFAULT_EN
@@ -47,25 +47,12 @@ en: &DEFAULT_EN
         answer: "The average student requires between 20 and 40 lessons. However, it depends on your pace, learning style, and confidence behind the wheel."
       - text: "Can I have lessons in English?"
         answer: "Yes, lessons can be in English or Dutch depending on your preference"
+      - text: "Do you teach on manual or automatic car?"
+        answer: "I teach on manual car"
       - text: "Can I pay for my lessons in installments?"
         answer: "Yes! We offer the option to pay in installments. Please contact us to discuss the available payment plans and terms."
       - text: "Do I need to pass my theory test before starting practical lessons?"
         answer: "You can begin driving lessons without having passed the theory exam. However, you must have your theory certificate before you can book and take the practical test."
-
-  contact:
-    title: "Contact Us"
-    text: "Call or send a message in WhatsApp"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
