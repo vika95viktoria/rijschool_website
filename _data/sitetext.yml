@@ -9,23 +9,6 @@
 
 # English (default)
 # -----------------
-rates:
-  trial_lesson:
-    duration: "60 min"
-    price: "60 €"
-  one_lesson:
-    duration: "90 min"
-    price: "90 €"
-  five_lessons:
-    price: "450 €"
-  ten_lessons:
-    price: "900 €"
-  twenty_lessons:
-    price: "1800 €"
-  thirty_lessons:
-    price: "2700 €"
-  practical_exam:
-    price: "450 €"
 en: &DEFAULT_EN
   header:
     title: Welcome to XYZ Driving School!

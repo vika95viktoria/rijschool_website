@@ -1,0 +1,105 @@
+---
+layout: page
+title: Contact
+background: grey
+cloudcannon_editable: true
+---
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .page-container {
+      width: 800px;
+      margin: 20px auto 50px; /* top margin = 20px, bottom margin = 50px */
+    }
+
+    /* Left & Right columns, aligned at top via float */
+    .left-column {
+      float: left;
+      width: 45%;
+      margin-right: 5%;
+    }
+    .right-column {
+      float: left;
+      width: 50%;
+    }
+    .clear {
+      clear: both;
+    }
+
+    /* Simple table styling */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+
+  <div class="page-container">
+    <div class="left-column">
+      <h2>Contact Us</h2>
+      <p>
+        Need more info or want to schedule a driving lesson? Get in touch with us using the details below.</p>
+
+      <p><strong>Address: </strong>{{site.address}}</p>
+      <p><strong>Phone:</strong> +{{site.phone}}</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:info@example.com">info@example.com</a>
+      </p>
+            <div class="text-left mt-4">
+        <a href="https://wa.me/{{site.phone}}" target="_blank" class="btn btn-success">
+  Chat via WhatsApp
+</a>
+
+    </div>
+    </div>
+
+    <div class="right-column">
+      <h2>Schedule</h2>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Hours</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>09:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>09:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>09:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>09:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>09:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>09:00 - 14:00</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Closed</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="clear"></div>
+  </div>

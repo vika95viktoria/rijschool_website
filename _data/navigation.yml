@@ -20,7 +20,7 @@ en: &DEFAULT_EN
     - title: "Reviews"
       url: reviews
     - title: "Contact"
-      section: contact
+      url: contact
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -35,12 +35,14 @@ en-AU:
 de: &DEFAULT_NL
   nav:
     - title: "Prijzen"
-      section: Portfolio
+      url: rates
     - title: "FAQ"
-      section: Geschichte
+      url: faq
     - title: "Team"
-      section: Team
+      url: team
+    - title: "Beoordelingen"
+      url: reviews
     - title: "Contact"
-      section: Contact
+      url: contact
 de-NL:
   <<: *DEFAULT_NL
