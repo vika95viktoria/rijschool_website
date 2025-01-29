@@ -36,4 +36,4 @@ We may update this privacy policy from time to time for personal, operational, l
 
 **CONTACT US**
 
-For more information about our privacy practices or if you have questions, please contact us by email at &lt;a href=”mailto:{{ site.email }}”&gt;{{ site.email }}&lt;/a&gt;.
+For more information about our privacy practices or if you have questions, please contact us by email at {{ site.email }}.
