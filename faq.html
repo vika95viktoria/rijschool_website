@@ -19,7 +19,7 @@ cloudcannon_editable: true
   </div>
 
   <div class="container">
-       {% for question in site.data.sitetext[site.locale].faq.questions %}
+       {% for question in site.data.sitetext.faq.questions %}
           <div class="faq-item shadow-sm">
       <button class="faq-question" type="button">
         {{question.text}}

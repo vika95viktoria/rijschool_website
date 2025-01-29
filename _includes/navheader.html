@@ -50,15 +50,15 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+	  {%- if site.data.sitetext.header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+	  {%- if site.data.sitetext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
+	  {%- if site.data.sitetext.header.button -%}
 
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.data.sitetext.general.phone}}" target="_blank">{{ site.data.sitetext[site.locale].header.button }}</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.data.sitetext.general.phone}}" target="_blank">{{ site.data.sitetext.header.button }}</a>
 	  {%- endif -%}
       </div>
     </div>
