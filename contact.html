@@ -10,28 +10,28 @@ cloudcannon_editable: true
       font-family: sans-serif;
     }
     .page-container {
-      width: 800px;
-      margin: 20px auto 50px; /* top margin = 20px, bottom margin = 50px */
+      max-width: 800px;    /* maximum width for large screens */
+      margin: 20px auto 50px;
+      padding: 0 15px;     /* side padding for smaller screens */
     }
-
-    /* Left & Right columns, aligned at top via float */
-    .left-column {
-      float: left;
-      width: 45%;
-      margin-right: 5%;
+    /* Flex container for the two columns */
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;     /* wrap columns on small screens */
+      gap: 20px;           /* spacing between columns */
     }
+    .left-column,
     .right-column {
-      float: left;
-      width: 50%;
+      flex: 1 1 300px;     /* each column takes at least 300px, then grows */
     }
-    .clear {
-      clear: both;
+    h2 {
+      margin-top: 0;       /* remove default top margin */
     }
-
-    /* Simple table styling */
+    /* Table styling */
     table {
-      border-collapse: collapse;
       width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
     }
     th, td {
       border: 1px solid #ccc;
@@ -44,6 +44,7 @@ cloudcannon_editable: true
   </style>
 
   <div class="page-container">
+  <div class="contact-row">
     <div class="left-column">
       <h2>Contact Us</h2>
       <p>
@@ -99,6 +100,7 @@ cloudcannon_editable: true
           <td>Closed</td>
         </tr>
       </table>
+    </div>
     </div>
 
     <div class="clear"></div>
