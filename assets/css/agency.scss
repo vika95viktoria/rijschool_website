@@ -22,9 +22,8 @@ $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
-$header-image: "{{ site.data.style.header-image }}";
-$header-mobile-image: "{{ site.data.style.header-mobile-image }}";
-$contact-image: "{{ site.data.style.contact-image }}";
+$background-image: "{{ site.data.style.background-image }}";
+$background-mobile-image: "{{ site.data.style.background-mobile-image }}";
 
 /* Fancy Table Styling */
 .table-custom {

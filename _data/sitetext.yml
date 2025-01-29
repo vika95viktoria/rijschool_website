@@ -35,7 +35,7 @@ en: &DEFAULT_EN
                             His friendly, patient teaching style ensures you’ll feel comfortable
                             and confident behind the wheel."
       - name: "Volkswagen Touran"
-        image: assets/img/vw_4.jpg
+        image: assets/img/team/vw_4.jpg
         description: "Meet Volkswagen Touran, Murat’s trusted partner on the road! Safe, and reliable, this car has helped many students master their driving skills. Its comfort and top-tier safety features makes it the perfect teammate for your journey become a driver!"
 
 
@@ -47,8 +47,8 @@ en: &DEFAULT_EN
         answer: "The average student requires between 20 and 40 lessons. However, it depends on your pace, learning style, and confidence behind the wheel."
       - text: "Can I have lessons in English?"
         answer: "Yes, lessons can be in English or Dutch depending on your preference"
-      - text: "Do you teach on manual or automatic car?"
-        answer: "I teach on manual car"
+      - text: "Do you offer lessons in an automatic or manual car?"
+        answer: "We provide training in a manual car"
       - text: "Can I pay for my lessons in installments?"
         answer: "Yes! We offer the option to pay in installments. Please contact us to discuss the available payment plans and terms."
       - text: "Do I need to pass my theory test before starting practical lessons?"
