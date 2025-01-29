@@ -2,9 +2,10 @@
 layout: page
 title: Privacy Policy
 background: grey
+cloudcannon_editable: true
 ---
 
-<div class="col-lg-12 text-center">
+<div class="col-lg-12 text-center editable">
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
 

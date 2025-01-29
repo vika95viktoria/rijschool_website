@@ -7,7 +7,7 @@ cloudcannon_editable: true
 
 <!-- Team -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
-<div class="container">
+<div class="container editable">
   <div class="row">
 	<div class="col-lg-12 text-center">
 	  <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title }}</h2>
@@ -41,7 +41,7 @@ cloudcannon_editable: true
   </div>
 </div>
 {% else %}
-<section class="page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+<section class="page-section editable" id="{{ site.data.sitetext.team.section | default: "team" }}">
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-12 text-center">
