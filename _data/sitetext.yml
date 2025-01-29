@@ -17,25 +17,39 @@ en: &DEFAULT_EN
     buttonlink: "#contact"
 
   team:
-    title: "Meet your instructor"
+    title: "Meet the team"
 #    text: "John is dedicated to ensuring each lesson is tailored to your skill level and goals.
 #           Feel free to contact us if you have any questions or want to book a lesson with John."
-    subtext: Murat is a certified driving instructor with over 20 years of experience.
-      He has helped hundreds of students successfully pass their driving tests.
-      His friendly, patient teaching style ensures you’ll feel comfortable
-      and confident behind the wheel.
+#    subtext: Murat is a certified driving instructor with over 20 years of experience.
+#      He has helped hundreds of students successfully pass their driving tests.
+#      His friendly, patient teaching style ensures you’ll feel comfortable
+#      and confident behind the wheel.
     section: team
     people:
       - name: "Murat"
      #   role: "Instructor"
         image: assets/img/team/instructor.avif
-        social:
-#          - url: https://twitter.com
-#            icon: fab fa-twitter
-#          - url: https://facebook.com
-#            icon: fab fa-facebook-f
-#          - url: https://linkedin.com
-#            icon: fab fa-linkedin-in
+        description: "Murat is a certified driving instructor with over 20 years of experience.
+                            He has helped hundreds of students successfully pass their driving tests.
+                            His friendly, patient teaching style ensures you’ll feel comfortable
+                            and confident behind the wheel."
+      - name: "Volkswagen Touran"
+        image: assets/img/vw_4.jpg
+        description: "Meet Volkswagen Touran, Murat’s trusted partner on the road! Safe, and reliable, this car has helped many students master their driving skills. Its comfort and top-tier safety features makes it the perfect teammate for your journey become a driver!"
+
+
+  faq:
+    questions:
+      - text: "How old do I have to be to start driving lessons?"
+        answer: "You can legally start taking driving lessons at 16½ years old. You can take the driving test at 17, but you must drive with a supervising driver until you turn 18."
+      - text: "How many lessons do I need before I can take my driving test?"
+        answer: "The average student requires between 20 and 40 lessons. However, it depends on your pace, learning style, and confidence behind the wheel."
+      - text: "Can I have lessons in English?"
+        answer: "Yes, lessons can be in English or Dutch depending on your preference"
+      - text: "Can I pay for my lessons in installments?"
+        answer: "Yes! We offer the option to pay in installments. Please contact us to discuss the available payment plans and terms."
+      - text: "Do I need to pass my theory test before starting practical lessons?"
+        answer: "You can begin driving lessons without having passed the theory exam. However, you must have your theory certificate before you can book and take the practical test."
 
   contact:
     title: "Contact Us"
