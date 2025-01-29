@@ -2,6 +2,7 @@
 layout: page
 title: FAQ
 background: grey
+cloudcannon_editable: true
 ---
 <!-- Page-specific style -->
 <style>

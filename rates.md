@@ -3,6 +3,7 @@ layout: page
 title: 'Rates'
 custom_field: 'test'
 background: grey
+cloudcannon_editable: true
 ---
 
 <section class="page-section">

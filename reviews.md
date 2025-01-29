@@ -2,6 +2,7 @@
 layout: reviews
 title: Reviews
 background: grey
+cloudcannon_editable: true
 ---
 
 <section class="reviews-section py-5">

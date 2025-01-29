@@ -2,6 +2,7 @@
 layout: page
 title: Team
 background: grey
+cloudcannon_editable: true
 ---
 
 <!-- Team -->
