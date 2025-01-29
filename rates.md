@@ -1,19 +1,18 @@
 ---
 layout: page
-title: 'Rates'
-custom_field: 'test'
+title: Rates
+custom_field: test
 background: grey
-trial_lesson_price: 60
+trial_lesson_price: 65
 trial_lesson_duration: 60
-one_lesson_price: 90
+one_lesson_price: 95
 one_lesson_duration: 90
 cloudcannon_editable: true
 ---
-
 <section class="page-section">
   <div class="container">
     <h2 class="section-heading text-uppercase">Available packages</h2>
-    
+
     <div class="table-responsive">
       <table class="table table-custom">
         <thead>
