@@ -1,7 +1,7 @@
 # admin/config.yml
 
 backend:
-  name: netlify
+  name: git-gateway
   # 'site_domain' points to your Netlify site domain (will configure later).
   # If you're testing locally or haven't deployed yet, you can leave this out
   # or temporarily use a placeholder. Once you know your Netlify domain,
