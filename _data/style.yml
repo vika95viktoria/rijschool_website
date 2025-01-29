@@ -5,7 +5,7 @@
 
 #Image Customization
 background-image: "../img/vw_3.webp"
-backgound-mobile-image: "../img/vw_8.jpeg"
+background-mobile-image: "../img/vw_8.jpeg"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 
