@@ -1,26 +1,43 @@
+# admin/config.yml
+
 backend:
-  name: git-gateway
-  repo: vika95viktoria/rijschool_website  # Replace with your actual repo URL (e.g. user/repo)
-  branch: master                                 # or "master," depending on your default branch
+  name: netlify
+  # 'site_domain' points to your Netlify site domain (will configure later).
+  # If you're testing locally or haven't deployed yet, you can leave this out
+  # or temporarily use a placeholder. Once you know your Netlify domain,
+  # add it here:
+  site_domain: rijschool-xyz.netlify.app
+  # If you use Netlify Identity, set:
+  repo: vika95viktoria/rijschool_website # your GitHub repo
+  branch: master # or 'master' or whichever branch you use
 
-media_folder: "assets/img"  # Where images etc. are uploaded
-#public_folder: "/assets/img"
+# Where to store media uploads (images, etc.)
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
-# Add collections to manage different content types
+# Collections define what content can be edited in the CMS.
 collections:
-
   - name: "pages"
     label: "Pages"
+    # We use 'files' here since you want to edit individual .md files in the root.
     files:
-      - label: "Rates"
+      - label: "Rates Page"
         name: "rates"
-        file: "rates.md"
+        file: "rates.md"  # Points to the root-level Markdown file in your repo
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Custom field", name: "custom_field", widget: "string" }
-#      - label: "Team"
-#        name: "team"
-#        file: "team.md"
-#        fields:
-#          - { label: "Title", name: "title", widget: "string" }
-#          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "page"
+          - label: "Custom Field"
+            name: "custom_field"
+            widget: "string"
+          - label: "Background"
+            name: "background"
+            widget: "string"
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
