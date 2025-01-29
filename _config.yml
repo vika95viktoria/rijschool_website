@@ -3,11 +3,7 @@ theme: jekyll-agency
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: "XYZ Driving School"
-description: "Top-quality driving lessons for all levels."
-address: "Example Street 123, 1011 AB Amsterdam, Netherlands"
-phone: 31612345678
-email: example@gmail.com
+
 #
 #plugins:
 #  - jekyll-seo-tag

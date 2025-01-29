@@ -32,7 +32,7 @@ en-AU:
 
 # Dutch
 # -----------------
-de: &DEFAULT_NL
+nl: &DEFAULT_NL
   nav:
     - title: "Prijzen"
       url: rates
@@ -44,5 +44,3 @@ de: &DEFAULT_NL
       url: reviews
     - title: "Contact"
       url: contact
-de-NL:
-  <<: *DEFAULT_NL

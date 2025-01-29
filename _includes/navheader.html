@@ -5,7 +5,7 @@
           {%- if site.logo -%}
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
-            {{ site.title }}
+            {{ site.data.sitetext.general.title }}
           {%- endif -%}
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
 	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.button -%}
 
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.phone}}" target="_blank">{{ site.data.sitetext[site.locale].header.button }}</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.data.sitetext.general.phone}}" target="_blank">{{ site.data.sitetext[site.locale].header.button }}</a>
 	  {%- endif -%}
       </div>
     </div>
@@ -74,7 +74,7 @@
         <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext.header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.phone}}" target="_blank">{{ site.data.sitetext.header.button }}</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://wa.me/{{site.data.sitetext.general.phone}}" target="_blank">{{ site.data.sitetext.header.button }}</a>
 	  {%- endif -%}
       </div>
     </div>
