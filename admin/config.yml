@@ -23,7 +23,7 @@ collections:
     files:
       - label: "Rates Page"
         name: "rates"
-        file: "rates.md"  # Points to the root-level Markdown file in your repo
+        file: "rates.html"  # Points to the root-level Markdown file in your repo
         fields:
           - label: "Title"
             name: "title"
