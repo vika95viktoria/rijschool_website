@@ -3,6 +3,10 @@ layout: page
 title: 'Rates'
 custom_field: 'test'
 background: grey
+trial_lesson_price: 60
+trial_lesson_duration: 60
+one_lesson_price: 90
+one_lesson_duration: 90
 cloudcannon_editable: true
 ---
 
@@ -20,8 +24,8 @@ cloudcannon_editable: true
         </thead>
         <tbody>
           <tr>
-            <td>Trial lesson {{site.data.sitetext.rates.trial_lesson.duration}}</td>
-            <td>{{site.data.sitetext.rates.trial_lesson.price}}</td>
+            <td>Trial lesson {{page.trial_lesson_duration}} min</td>
+            <td>{{page.trial_lesson_price}} €</td>
           </tr>
           <tr>
             <td>1 lesson {{site.data.sitetext.rates.one_lesson.duration}}</td>
