@@ -16,7 +16,7 @@ cloudcannon_editable: true
 
 {%- endif -%}
 
-<div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+<div id="reviewCarousel" class="carousel slide" data-ride="carousel">
       <!-- Carousel Indicators (the dots below) -->
       <div class="carousel-indicators">
       {% for i in (0..num_of_carousel) %}
@@ -27,7 +27,7 @@ cloudcannon_editable: true
         {%- endif -%}
       {% endfor %}
       </div>
-      {% assign num_of_carousel = num_of_carousel | plus: 1 %}
+
       
       <!-- Carousel Inner -->
       <div class="carousel-inner">
