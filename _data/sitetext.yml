@@ -53,5 +53,35 @@ faq:
         You can begin driving lessons without having passed the theory exam.
         However, you must have your theory certificate before you can book and
         take the practical test.
+
+reviews:
+  - author: oneta Lazar
+    text: Murat is an exceptional driving instructor who provides thorough and patient guidance throughout the learning process. His calm energy and clear instructions make every lesson productive and stress-free. I gained confidence behind the wheel and developed safe driving habits that will last a lifetime. I highly recommend!
+    link: https://maps.app.goo.gl/NJ4Yh8UKX3kcMDqq8
+    num_of_stars: 5
+  - author: Hanry Kluk
+    text: About the classes I personally had a amazing experience. I had opportunity to have the best driving instructor. Murat is a legend. I cannot imagine how it could be better. Very efficient way of teaching. I passed on my first try.
+    link: https://maps.app.goo.gl/1pR1cmg27k6EPjH57
+    num_of_stars: 5
+  - author: Sandro König
+    text: Murat is een heel goede rij-instructeur die zijn vak serieus neemt. Hij begeleid je perfect voor op je rijexamen. Soms is hij te perfectionistisch, maar de meeste tijd is hij erg goed en helder in zijn uitleg. Daarnaast is hij geduldig en heel aardig. Een aanrader dus!
+    link: https://maps.app.goo.gl/1h2RvAr8eJtnEfFA8
+    num_of_stars: 5
+  - author: Eszter Subsics
+    text: I had a very good experience learning to drive with Murat. He is very professional, kind and very keen on to have his students pass the exam. I did pass at first so cudos to him and ryles too! The way they prepare students with prior tests by other instructers is brilliant!
+    link: https://maps.app.goo.gl/ZLYoZGRsrb2XTifb8
+    num_of_stars: 5
+  - author: Abnet Tujo
+    text: "Ik heb rijlessen gevolgd bij Murat van rijschool Ryles. Sinds dag 1 voelde ik mij op mijn gemak achter zijn stuur, ook als de les wat minder ging. Murat is een prettige rij-instructeur met maar liefst 20 jaar ervaring. Hij heeft mij altijd met veel geduld en toewijding les gegeven. In het verleden heeft hij ook tantes, ooms, nichtjes en neefjes van mij les gegeven. We zouden hem aan iedereen aanraden! En niet geheel onbelangrijk: dankzij Murat ben ik in één keer geslaagd voor mijn praktijkexamen."
+    link: https://maps.app.goo.gl/J5JxL66iLHrVSQrx8
+    num_of_stars: 5
+  - author: Taha
+    text: Ik ben enorm dankbaar voor de geweldige ervaring die ik heb gehad bij de rijschool. Murat heeft me uitstekend begeleid en met zijn geduldige aanpak voelde ik me altijd op mijn gemak achter het stuur. Murat was ontzettend behulpzaam en zijn geduld maakte het leerproces plezierig. Kortom, een top team dat me met vertrouwen de weg op heeft geholpen!
+    link: https://maps.app.goo.gl/dmb9h4RHCb1CQMSf7
+    num_of_stars: 5
+  - author: Taha45345
+    text: Ik ben enorm dankbaar voor de geweldige ervaring die ik heb gehad bij de rijschool. Murat heeft me uitstekend begeleid en met zijn geduldige aanpak voelde ik me altijd op mijn gemak achter het stuur. Murat was ontzettend behulpzaam en zijn geduld maakte het leerproces plezierig. Kortom, een top team dat me met vertrouwen de weg op heeft geholpen!
+    link: https://maps.app.goo.gl/dmb9h4RHCb1CQMSf7
+    num_of_stars: 3
 footer:
   legal: Privacy Policy

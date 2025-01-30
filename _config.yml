@@ -1,7 +1,7 @@
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "https://vika95viktoria.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/rijschool_website" # the subpath of your site, e.g. /blog
 
 
 #
