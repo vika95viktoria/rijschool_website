@@ -213,6 +213,8 @@ $background-mobile-image: "{{ site.data.style.background-mobile-image }}";
   vertical-align: middle;
 }
 
+.carousel .carousel-indicators button {background-color: black;}
+.carousel .carousel-indicators button.active {background-color: $primary;}
 
 // Global CSS
 @import "base/page.scss";

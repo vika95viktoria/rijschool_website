@@ -13,15 +13,21 @@ cloudcannon_editable: true
 {% assign num_of_carousel = total_reviews | divided_by: 3 %}
 {% assign remainder = total_reviews | modulo: 3 %}
 {%- if remainder > 0 -%}
-{% assign num_of_carousel = num_of_carousel | plus: 1 %}
+
 {%- endif -%}
 
 <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
       <!-- Carousel Indicators (the dots below) -->
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active" aria-current="true" ></button>
-        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1" ></button>
+      {% for i in (0..num_of_carousel) %}
+       {%- if i == 0 -%}
+       <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active" aria-current="true" ></button>
+        {%- else -%}
+        <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="{{i}}" ></button>
+        {%- endif -%}
+      {% endfor %}
       </div>
+      {% assign num_of_carousel = num_of_carousel | plus: 1 %}
       
       <!-- Carousel Inner -->
       <div class="carousel-inner">
