@@ -5,18 +5,18 @@ background: grey
 cloudcannon_editable: true
 ---
 
-<section class="reviews-section py-5">
+<section class="reviews-section py-6 mt-6">
   <div class="container">
     <h2 class="text-center mb-4">My students say:</h2>
     
 {% assign total_reviews = site.data.sitetext.reviews.size %}
 {% assign num_of_carousel = total_reviews | divided_by: 3 %}
 {% assign remainder = total_reviews | modulo: 3 %}
-{%- if remainder > 0 -%}
-
+{%- if remainder == 0 -%}
+{% assign num_of_carousel = num_of_carousel | minus: 1 %}
 {%- endif -%}
 
-<div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+<div id="reviewCarousel" class="carousel slide mb-5" data-ride="carousel">
       <!-- Carousel Indicators (the dots below) -->
       <div class="carousel-indicators">
       {% for i in (0..num_of_carousel) %}
