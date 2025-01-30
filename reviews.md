@@ -71,7 +71,7 @@ cloudcannon_editable: true
           
           {% assign lower_bound = i | times: 3 %}
           {% assign upper_bound = lower_bound | plus: 2 %}
-          {%- if upper_bound > total_reviews -%}
+          {%- if upper_bound >= total_reviews -%}
           {% assign upper_bound = total_reviews | minus: 1 %}
           {%- endif -%}
           {% for j in (lower_bound..upper_bound) %}
