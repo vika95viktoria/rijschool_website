@@ -1,28 +1,17 @@
-#Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
-
-#Image Customization
-background-image: "../img/vw_3.webp"
-background-mobile-image: "../img/vw_8.jpeg"
-#Font Awesome icon for portfolio grid when an item is hovered over
-#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
-
-# Add custom fonts
+background-image: /assets/img/vw-touran-1200x800-544031f74963ff6f.jpg
+background-mobile-image: ../img/vw_8.jpeg
 fonts_urls:
-    - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-    - "https://fonts.googleapis.com/css?family=Kaushan+Script"
-    - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-    - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-
-# Set custom fonts
+  - https://fonts.googleapis.com/css?family=Montserrat:400,700
+  - https://fonts.googleapis.com/css?family=Kaushan+Script
+  - >-
+    https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic
+  - https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700
 fonts:
-  - name: "Montserrat"
-    for: "heading"
-  - name: "Kaushan Script"
-    for: "script"
-  - name: "Droid Serif"
-    for: "serif"
-  - name: "Roboto Slab"
-    for: "body"
+  - name: Montserrat
+    for: heading
+  - name: Kaushan Script
+    for: script
+  - name: Droid Serif
+    for: serif
+  - name: Roboto Slab
+    for: body
