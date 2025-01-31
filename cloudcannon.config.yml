@@ -13,7 +13,7 @@ collections_config:
     disable_file_actions: true
 paths:
   static: ''
-  uploads: uploads
+  uploads: assets/img
 timezone: Europe/Berlin
 markdown:
   engine: kramdown
