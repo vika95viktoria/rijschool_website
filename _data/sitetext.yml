@@ -28,6 +28,9 @@ team:
         reliable, this car has helped many students master their driving skills.
         Its comfort and top-tier safety features makes it the perfect teammate
         for your journey to becoming a driver!
+    - name: Test
+      image: /assets/img/e900c458bd0fa79319fce72943efc24b.jpg
+      description: test
 faq:
   questions:
     - text: How old do I have to be to start driving lessons?
