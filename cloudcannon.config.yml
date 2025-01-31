@@ -12,8 +12,8 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: true
 paths:
-  static: assets
-  uploads: img
+  static: ''
+  uploads: assets/img
 timezone: Europe/Berlin
 markdown:
   engine: kramdown
